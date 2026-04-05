@@ -5,11 +5,11 @@ This project analyzes a pizza sales dataset using SQL to uncover key business in
 Key Features & SQL Skills Demonstrated:
 Revenue Analysis: Calculated total sales, average order value, and profit margins using GROUP BY, SUM(), and AVG().
 Top Performers: Identified best-selling pizzas and categories with RANK() and DENSE_RANK() window functions.
-Trend Insights: Analyzed sales by date, hour, and location using DATE() functions, JOINs across multiple tables (orders, pizzas, pizza_types).
+Trend Insights: Analyzed sales by date, hour, and location using DATE() functions, JOINs across multiple tables (orders,orders_details, pizzas, pizza_types).
 Complex Queries: Performed multi-table joins, CTEs for peak hours analysis, and ranking queries for city-wise performance.
 
 Dataset
-Source: Sample pizza sales data (orders, order_items, pizzas, pizza_types tables).
+Source: Sample pizza sales data (orders,orders_details, order_items, pizzas, pizza_types tables).
 Scope: ~30,000+ orders across 2 years, multiple cities, and pizza varieties.
 
 Queries & Insights-->
