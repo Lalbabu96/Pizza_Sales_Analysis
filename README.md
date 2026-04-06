@@ -8,7 +8,7 @@ Top Performers: Identified best-selling pizzas and categories with RANK() and DE
 Trend Insights: Analyzed sales by date, hour, and location using DATE() functions, JOINs across multiple tables (orders,orders_details, pizzas, pizza_types).
 Complex Queries: Performed multi-table joins, CTEs for peak hours analysis, and ranking queries for city-wise performance.
 
-Dataset
+Dataset-->
 Source: Sample pizza sales data (orders,orders_details, order_items, pizzas, pizza_types tables).
 Scope: ~30,000+ orders across 2 years, multiple cities, and pizza varieties.
 
